@@ -1,39 +1,102 @@
 ~ NAME : Traumae Aebeth
-~ NOTE : From the instructional video uploaded on August 17th, 2014 (https://www.youtube.com/watch?v=_YXK1nepTPA)
+~ NOTE : From the instructional video uploaded on August 17th, 2014 (https://www.youtube.com/watch?v=_YXK1nepTPA). The three vowels used to build the words are a, i, and o. There are three root families: k, x, and s, and each root uses a different consonant to form it's opposite, and median. The k words median's use t, and the opposite is formed with p. X's opposite is formed with b, and the median is formed with d. S's opposites are formed with v, and the median with l. With these concepts combined, we see that the first aeth, ki, which means 'parent,' has an opposite aeth pi, which means 'child', and the median ti means 'instance.'
 ~ AUTH : Devine Lu Linvega
 
-ki : Parent
-ti : Instance
-pi : Child
+~ ki, ti, pi
+Parent
+    root : k
+    vowel : i
+    opposite 
+        meaning : Child
+        root : p
+    median 
+        meaning : Instance
+        root : t
 
-ka : Inward
-ta : Stasis
-pa : Outward
+~ ka, ta, pa
+Inward
+    root : k
+    vowel : a
+    opposite
+        meaning : Outward
+        root : t
+    median
+        meaning : Stasis
+        root : p
 
-ko : Impossible
-to : Possible
-po : Occurance
+~ ko, to, po     
+Impossible
+    root : k
+    vowel : o
+    opposite
+        meaning : Occurance
+        root : p
+    median
+        meaning : Possible
+        root : t
 
-xi : Psychological
-di : Physionomical
-bi : Physical
+~ xi, di, bi
+Psychological
+    root : x
+    vowel : i
+    opposite
+        meaning : Physical
+        root : b
+    median
+        meaning : Physionomical
+        root : d
 
-xa : Addition
-da : Equal
-ba : Subtraction
+~ xa, da, ba
+Addition
+    root : x
+    vowel : a
+    opposite
+        meaning : Subtraction
+        root : b
+    median
+        meaning : Equal
+        root : d
 
-xo : Positive
-do : Unknown
-bo : Negative
+~ xo, do, bo
+Positive
+    root : x
+    vowel : o
+    opposite
+        meaning : Negative
+        root : b
+    median
+        meaning : Unknown
+        root : d
 
-si : Complex
-li : Organic
-vi : Synthetic
+~ si, li, vi
+Complex
+    root : s
+    vowel : i
+    opposite
+        meaning : Synthetic
+        root : v
+    median
+        meaning : Organic
+        root : v
 
-sa : Multiple
-la : One
-va : None
+~ sa, la, va
+Multiple
+    root : s
+    vowel : a
+    opposite
+        meaning : None
+        root : v
+    median
+        meaning : One
+        root : l
 
-so : Communication
-lo : Passive
-vo : Interaction
+~ so, lo, vo
+Communication
+    root : s
+    vowel : o
+    opposite
+        meaning : Interaction
+        root : v
+    median
+        meaning : Passive
+        root : l
