@@ -3,8 +3,16 @@
 
 $nataniev.require("corpse","http")
 
+$nataniev.vessels[:traumae].name = "Traumae"
+$nataniev.vessels[:traumae].docs = "A synthetic language, the ancestor of [Lietal](wiki.xxiivv.com/lietal)"
+$nataniev.vessels[:traumae].site = "wiki.xxiivv.com/traumae"
 $nataniev.vessels[:traumae].path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
-$nataniev.vessels[:traumae].install(:custom,:print)
+
+# Install actions
+load_folder("#{$nataniev.vessels[:traumae].path}/actions/*")
+$nataniev.vessels[:traumae].install(:generic,:document)
+$nataniev.vessels[:traumae].install(:generic,:print)
+$nataniev.vessels[:traumae].install(:custom,:test)
 
 corpse = CorpseBase.new($nataniev.vessels[:traumae])
 
