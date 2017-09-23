@@ -6,12 +6,20 @@
 Parent
     root : k
     vowel : i
+    alt : from
+    notes : When describing something as being the parent of another thing, you could also say that you could also say that the other thing comes 'from' the parent, which is another way 'ki' is used.
     opposite 
         meaning : Child
+        alt : by
         root : p
+        notes : When describing something as being the child of another thing, like a piece of art to a person, you could say that the art is 'by' the person.
     median 
         meaning : Instance
+        alt : at
         root : t
+        notes : Not really a biological concept, but has the idea of a clone, or 'selfness,' instead of being from something, or the originator of something.
+    description : Describes the point of origin, or relationship between people, places or things.
+    
 
 ~ ka, ta, pa
 Inward
@@ -23,61 +31,83 @@ Inward
     median
         meaning : Stasis
         root : t
+    description : Describes movement of a thing. The movement could be linear, but also could be three dimensional, the idea of expanding or contracting.
 
 ~ ko, to, po     
 Impossible
     root : k
     vowel : o
+    alt : cannot
+    notes : Something that absolutely cannot happen.
     opposite
         meaning : Occurance
         root : p
+        alt : must
+        notes : Something that is absolutely going to happen.
     median
         meaning : Possible
         root : t
+        alt : could
+    description : Describes possibility, probability, and what has already happened or what must happen.
 
 ~ xi, di, bi
 Psychological
     root : x
     vowel : i
+    notes : Abstract, ideas, concepts, and things of the mind.
     opposite
         meaning : Physical
         root : b
+        notes : Concrete, things you can touch.
     median
         meaning : Physionomical
         root : d
+        notes : The concept or shape of physical things, inbetween the things purely of the mind and purely of the body.
+    description : Describes whether a thing is physical, something you could touch, or whether it is an idea or concept, or whether it is a description, or formula. Take for example a circle. Bi would be the circle itself. Xi would be outside the circle, looking in upon it. Di would be the edge of the circle.
 
 ~ xa, da, ba
 Addition
     root : x
     vowel : a
+    alt : greater than
     opposite
         meaning : Subtraction
         root : b
+        alt : less than
     median
         meaning : Equal
         root : d
+    description : Describes simple arithmetic, but also carries the connotation of comparison.
 
 ~ xo, do, bo
 Positive
     root : x
     vowel : o
+    alt : good
     opposite
         meaning : Negative
         root : b
+        alt : bad
     median
         meaning : Unknown
         root : d
+        alt : negative
+    description : Describes alignment or quality.
 
 ~ si, li, vi
 Complex
     root : s
     vowel : i
+    notes : Doesn't have a good english translation, but the idea is something that cannot be replicated, or replicate itself. The word for 'time' would use si, for example.
     opposite
         meaning : Synthetic
         root : v
+        notes : something that can be replicated, or that is 'man-made.'
     median
         meaning : Organic
-        root : v
+        root : l
+        notes : Something that is hard or impossible to make or replicate, but that reproduces itself.
+    description : Describes the 'arena,' or 'kingdom,' or perhaps 'nature' of a thing. Most tools are vi. Most living organisms could be described with li. Si would describe things like time, gravity, space, etc.
 
 ~ sa, la, va
 Multiple
@@ -89,14 +119,23 @@ Multiple
     median
         meaning : One
         root : l
+        alt : few
+    description : Describes the amount, or number of a thing.
 
 ~ so, lo, vo
 Communication
     root : s
     vowel : o
+    alt : to see
+    notes : This is an inward interaction, and not necessarily with a person, but inwardly. Conveys the idea of processing, or understanding, but also of conversation, which is a non-physical, abstract way of interacting with concepts.
     opposite
         meaning : Interaction
         root : v
+        alt : to do
+        notes : Direct interaction, physical interaction, and the idea also of intervention. Carries an idea of action, of doing.
     median
         meaning : Passive
         root : l
+        alt : to be
+        notes : Neither inwardly nor outwardly interacting with a thing, but simply existing, or being.
+    description : Describes action, or state, the way that one thing interacts with the things around it.
