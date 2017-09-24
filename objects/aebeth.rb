@@ -14,9 +14,6 @@ class Aebeth
 
         # Loop through each aeth
         @h.each do |_, aeth|
-
-            print aeth.to_table
-
             # Put each aeth's capitalizations and their definitions in the dict
             cap = 0
             aeth.capitalizations.each do |a|
