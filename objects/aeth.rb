@@ -13,11 +13,11 @@ class Aeth
 
         case cap
         when 0
-            return @root_meaning
+            return @root_meaning + "(#{@aeth_data["alt"]})"
         when 1
-            return @aeth_data["median"]["meaning"]
+            return @aeth_data["median"]["meaning"] + "(#{@aeth_data["median"]["alt"]})"
         when 2
-            return @aeth_data["opposite"]["meaning"]
+            return @aeth_data["opposite"]["meaning"] + "(#{@aeth_data["opposite"]["alt"]})"
         end
 
     end
@@ -46,6 +46,47 @@ class Aeth
         end
 
         return caps
+
     end
 
+    def to_table
+
+        html =  "<table>"\
+                "<caption>#{@aeth_data["description"]}</caption>"\
+                "<thead>"\
+                "<tr>"\
+                "<th>Aeth</th>"\
+                "<th>Meaning</th>"\
+                "<th>Notes</th>"\
+                "</tr>"\
+                "</thead>"
+
+        letters = self.capitalizations
+        index = 0
+        letters.each do |aeth|
+            if index == 0
+                root = @aeth_data.dup
+                root["meaning"] = @root_meaning
+            elsif index == 1
+                root = @aeth_data["median"]
+            elsif index == 2
+                root = @aeth_data["opposite"]
+            end
+
+            alt = !root["alt"].nil? ? ", " + root["alt"] : ""
+            notes = !root["notes"].nil? ? root["notes"] : ""
+
+            html += "<tr>"\
+                    "<td><strong>#{aeth}</strong></td>"\
+                    "<td>#{root["meaning"] + alt}</td>"\
+                    "<td>#{notes}</td>"\
+                    "</tr>"
+
+            index += 1
+        end
+
+        html += "</table>"
+        return html
+
+    end
 end

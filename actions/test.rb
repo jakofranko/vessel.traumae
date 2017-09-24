@@ -17,7 +17,7 @@ class ActionTest
        
        @aebeth = Aebeth.new(@host.path)
        
-       print @aebeth.list
+       @aebeth.list
        
    end
     
