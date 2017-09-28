@@ -28,6 +28,11 @@ def corpse.query q = nil
   @dictionaery = Dictionaery.new($nataniev.vessels[:traumae].path)
   @aebeth = Aebeth.new($nataniev.vessels[:traumae].path)
 
+  if q.like("aebeth")
+    @payload = @aebeth.list
+    return
+  end
+
   if q.like("documentation")
     documentation = Documentation.new($nataniev.vessels[:traumae].path)
     documentation.dictionaery = @dictionaery
