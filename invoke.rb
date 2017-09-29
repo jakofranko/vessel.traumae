@@ -25,11 +25,11 @@ def corpse.query q = nil
 
   load_folder "#{$nataniev.vessels[:traumae].path}/objects/*"
 
-  @dictionaery = Dictionaery.new($nataniev.vessels[:traumae].path)
+  # @dictionaery = Dictionaery.new($nataniev.vessels[:traumae].path)
   @aebeth = Aebeth.new($nataniev.vessels[:traumae].path)
 
   if q.like("aebeth")
-    @payload = @aebeth.list
+    @payload = @aebeth.to_table
     return
   end
 

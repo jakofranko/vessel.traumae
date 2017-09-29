@@ -25,4 +25,15 @@ class Aebeth
         return dict
     end
 
+    def to_table
+
+        html = ""
+        @h.each do |_, aeth|
+            html += aeth.to_table
+        end
+
+        return html
+
+    end
+
 end
