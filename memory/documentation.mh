@@ -3,11 +3,12 @@
 ~ AUTH : Devine Lu Linvega
 ~ EDIT : Jake Franklin
 
-AEBETH
+INTRODUCTION
+    # AEBETH
     The fundamental building-blocks of Traumae is it's aebeth. The aebeth is composed of 9 letters, or 'aeths,' which in turn each have three capitalizations. Each aeth represents a concept, and each capitalization represents a spectrum of that concept.
     $ traumae print aebeth
     While it is acurate to describe each aeth as a letter (see <a href="#letters">the notes on Traumae's various scripts</a>), the aebeth could be described as a collection of Traumae's morphemes, as words in Traumae are composed by combining these aeths in meaningful ways.
-    
+
 BASIC VOCABULARY
     ~ Yes, no, hello, goodbye
 
