@@ -14,7 +14,7 @@ $nataniev.vessels[:traumae].install(:generic,:document)
 $nataniev.vessels[:traumae].install(:generic,:print)
 $nataniev.vessels[:traumae].install(:custom,:test)
 
-corpse = CorpseBase.new($nataniev.vessels[:traumae])
+corpse = CorpseHttp.new($nataniev.vessels[:traumae])
 
 $nataniev.vessels[:traumae].corpse = corpse
 
@@ -35,8 +35,7 @@ def corpse.query q = nil
 
   if q.like("documentation")
     documentation = Documentation.new($nataniev.vessels[:traumae].path)
-    documentation.dictionaery = @dictionaery
-    documentation.aebeth = @aebeth
+    # documentation.dictionaery = @dictionaery
     @payload = documentation.to_s
     return
   end
