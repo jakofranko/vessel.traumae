@@ -4,19 +4,29 @@
 ~ EDIT : Jake Franklin
 
 INTRODUCTION
-    # AEBETH
-    The fundamental building-blocks of Traumae is it's aebeth. The aebeth is composed of 9 letters, or 'aeths,' which in turn each have three capitalizations. Each aeth represents a concept, and each capitalization represents a spectrum of that concept.
+    * AEBETH
+    & The foundation of Traumae is it's aebeth. The aebeth is composed of 9 letters, or 'aeths,' which in turn each have three capitalizations. Each aeth represents a concept, and each capitalization represents a spectrum of that concept.
     $ traumae print aebeth
-    While it is acurate to describe each aeth as a letter (see <a href="#letters">the notes on Traumae's various scripts</a>), the aebeth could be described as a collection of Traumae's morphemes, as words in Traumae are composed by combining these aeths in meaningful ways.
+    = Test Header
+    & While it is acurate to describe each aeth as a letter (see <a href="#letters">the notes on Traumae's various scripts</a>), the aebeth could be described as a collection of Traumae's morphemes, as words in Traumae are composed by combining these aeths in meaningful ways.
+    * Test Header 2
 
 BASIC VOCABULARY
-    ~ Yes, no, hello, goodbye
+    & Words in Traumae are composed by combining aeths in a way that describes the idea of a thing. In this way, names in Traumae also serve as conceptual descriptions. To illustrate this, let's learn some basic vocabulary.
+    * Greetings & Goodbyes
+    # Hello   => Xoka
+    # Goodbye => Xopa
+    & Both of these words start with the "xo" aeth, which means positive, or good. This aeth is then followed by two of the directional aeths "ka", which means "inward," and "pa," which means "outward."
+    = And Another test Header
 
 ADULTSPEAK
+    * TODO
 
 LETTERS
+    * TODO
 
 DICTIONAERY
+    * TODO
 
 TRANSLATOR
 
