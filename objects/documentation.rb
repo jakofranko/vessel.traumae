@@ -1,7 +1,7 @@
 require_relative "../../vessel.oscean/objects/index.rb"
 class Documentation
 
-    RUNES = ['$', '#']
+    HEADINGS = ["*", "="]
 
     def initialize path
 
@@ -15,44 +15,25 @@ class Documentation
         html = ""
         @h.each do |heading, paragraphs|
             if heading == "SOURCES" then next end
-
+            parent = nil
             html += @index.add(:root, heading.downcase.to_sym)
             paragraphs.each do |p|
-                rune, spell = get_rune(p)
-
-                if rune
-                    html += cast_spell(rune, spell, heading)
-                else
-                    html += "<p>#{p}</p>"
+                print p[0, 1], HEADINGS[0]
+                if p[0, 1] == HEADINGS[0]
+                    parent = p[1..-1]
+                    @index.add(heading.downcase.to_sym, parent)
+                elsif p[0, 1] == HEADINGS[2] && !parent.nil?
+                    @index.add(parent.trim.downcase.to_sym, p[1..-1])
                 end
             end
+
+            html += paragraphs.runes
+
         end
 
+        print @index.inspect
         return @index.to_s(true) + html
-    end
-
-    def get_rune s
-
-        rune = s[0, 1]
-        spell = s[1..-1]
-        if RUNES.include? rune
-            return rune, spell
-        else
-            return nil
-        end
 
     end
 
-    def cast_spell rune, spell, heading = nil
-
-        result = ""
-        case rune
-        when "$"
-            result += $nataniev.answer(spell)
-        when "#"
-            result += @index.add(heading.to_sym, spell.to_sym)
-        end
-
-        return result
-    end
 end
