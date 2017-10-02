@@ -8,18 +8,18 @@ Parent
     vowel : i
     alt : from
     notes : When describing something as being the parent of another thing, you could also say that you could also say that the other thing comes 'from' the parent, which is another way 'ki' is used.
-    opposite 
+    opposite
         meaning : Child
-        alt : by
+        alt : by, in
         root : p
         notes : When describing something as being the child of another thing, like a piece of art to a person, you could say that the art is 'by' the person.
-    median 
+    median
         meaning : Instance
         alt : at
         root : t
         notes : Not really a biological concept, but has the idea of a clone, or 'selfness,' instead of being from something, or the originator of something.
     description : Describes the point of origin, or relationship between people, places or things.
-    
+
 
 ~ ka, ta, pa
 Inward
@@ -33,7 +33,7 @@ Inward
         root : t
     description : Describes movement of a thing. The movement could be linear, but also could be three dimensional, the idea of expanding or contracting.
 
-~ ko, to, po     
+~ ko, to, po
 Impossible
     root : k
     vowel : o
@@ -127,7 +127,7 @@ Communication
     root : s
     vowel : o
     alt : to see
-    notes : This is an inward interaction, and not necessarily with a person, but inwardly. Conveys the idea of processing, or understanding, but also of conversation, which is a non-physical, abstract way of interacting with concepts.
+    notes : An inward interaction. Conveys the idea of processing, or understanding, but also of conversation, which is a non-physical, abstract way of interacting with concepts.
     opposite
         meaning : Interaction
         root : v
