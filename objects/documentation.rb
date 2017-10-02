@@ -31,8 +31,32 @@ class Documentation
 
         end
 
-        print @index.inspect
-        return @index.to_s(true) + html
+        return styles + @index.to_s(true) + html
+
+    end
+
+    def styles
+
+        return "
+        <style>
+            .traumae.aeth {
+                width: 100%;
+            }
+
+            .traumae.aeth caption {
+                text-align: left;
+                margin-bottom: 10px;
+            }
+
+            .traumae.aeth th:nth-child(1) {
+                width: 10%;
+            }
+
+            .traumae.aeth th:nth-child(2) {
+                width: 25%;
+            }
+        </style>
+        "
 
     end
 

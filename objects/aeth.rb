@@ -51,7 +51,7 @@ class Aeth
 
     def to_table
 
-        html =  "<table>"\
+        html =  "<table class='traumae aeth'>"\
                 "<caption>#{@aeth_data["description"]}</caption>"\
                 "<thead>"\
                 "<tr>"\
