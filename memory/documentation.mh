@@ -4,20 +4,44 @@
 ~ EDIT : Jake Franklin
 
 INTRODUCTION
-    * AEBETH
-    & The foundation of Traumae is it's aebeth. The aebeth is composed of 9 letters, or 'aeths,' which in turn each have three capitalizations. Each aeth represents a concept, and each capitalization represents a spectrum of that concept.
+    * Aebeth
+    & The foundation of Traumae is its aebeth. The aebeth is composed of 9 letters, or 'aeths,' which in turn each have three capitalizations. Each aeth represents a concept, and each capitalization represents a spectrum of that concept.
     $ traumae print aebeth
-    = Test Header
-    & While it is acurate to describe each aeth as a letter (see <a href="#letters">the notes on Traumae's various scripts</a>), the aebeth could be described as a collection of Traumae's morphemes, as words in Traumae are composed by combining these aeths in meaningful ways.
-    * Test Header 2
+    & While it is acurate to describe each aeth as a letter (see <a href="#letters">the notes on Traumae's various scripts</a>), the aebeth is also the sum of Traumae's morphemes, out of which all words are built.
 
 BASIC VOCABULARY
-    & Words in Traumae are composed by combining aeths in a way that describes the idea of a thing. In this way, names in Traumae also serve as conceptual descriptions. To illustrate this, let's learn some basic vocabulary.
+    * Simple Answers
+    & Now that we've covered the aebeth, you already know a couple of basic vocabulary words in Traumae:
+    # Yes => Xo
+    # No  => Bo
+    & Xo and bo do not mean 'yes' and 'no' literally in Traumae, but they convey the concept behind those two words. Xo carries the idea of 'positive,' where as bo carries the idea of 'negative.' In fact, it is rare for words in Traumae to have a literal 1:1 translation to English or other languages, because the nature of Traumae's words are more conceptual and descriptive.
     * Greetings & Goodbyes
+    & Words in Traumae are composed by combining aeths in a way that describes the idea of a thing, with each successive aeth modifying the one that came before it.
     # Hello   => Xoka
     # Goodbye => Xopa
     & Both of these words start with the "xo" aeth, which means positive, or good. This aeth is then followed by two of the directional aeths "ka", which means "inward," and "pa," which means "outward."
-    = And Another test Header
+    * Questions
+    & All questions in Traumae start with the 'do,' which means 'uknown.'
+    # What are you doing? => Dovo
+    # How many?           => Dosa
+    * Answers
+    & Answers in Traumae often start with 'lo,' which means 'to be.'
+    # There is one => lola
+
+SENTENCES
+    & Sentences are nested thoughts in Traumae, with each successive word modifying the last. To illustrate this, let's dissect a very common Traumae sentence:
+    * How do you say X in Traumae?
+    & To translate this into Traumae, we need to flip the word order around, starting with the most generic concept, and ending with the most specific concept. The English phrasing would be more like "In Traumae, what is X?"
+    # Pi traumae, do lo "X"?
+    & Here we see the word "pi" is used to describe the "things/children of traumae," and this thought is then modified the thought of an unknown thing. The question mark designates it as a question instead of a statement, and in conversation this would be indicated by vocal inflection just like in English.
+    & This sentence could be diagramed like pi(traumae), do(lo("X")).
+    * A Conversation
+    & Putting everything learned so far into practice, here is an example of a short conversation in Traumae
+    # Xoka
+    # Xoka! Dolo pa?
+    # Loka. Pi traumae, do lo "something?"
+    # Pi traumae, "something" lo "lado"
+    & "Dolo pa?" is a question: unknown(to be) outward, or "how are you?" And the other person responds "Loka:" I'm good. Then, the same person asks the other how to say "something" in Traumae. The other person responds that the word for something is "lado." Can you figure out why "lado" is the word for something?
 
 ADULTSPEAK
     * TODO
