@@ -47,7 +47,23 @@ ADULTSPEAK
     * TODO
 
 LETTERS
-    * TODO
+    & Traumae has several scripts, or glyphs, that have been used to write it. The earliest of these scripts is called the {{Ehrivevnv}} letters(?), and they actually have slightly different meanings than the current aebeth we've already learned.
+    * Ehrivevnv
+    $ traumae print ehrivevnv
+    & In this script, each aeth can be capitalized by dots. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
+    ~ TODO: print out ehrivevnv sentence
+    & A later version of this script evolved that is very similar:
+    $ traumae print ehrivevnv_july
+    & It's very similar to the previous version, but it uses lines underneath each aeth to signify capitalizations instead of dots:
+    ~ TODO: print sentence
+    & These letters eventually evolved into the script known as Septambres. It's most recent incarnation is used in in {{Lietal}}.
+    * Septambres
+    & The Septambres letters use the aebeth detailed above (not the earlier ehrivevnv aebeth). The earliest of these is the Recit family:
+    = Recit
+    $ traumae print septambres_recit
+    & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth.
+
+
 
 DICTIONAERY
     * TODO
@@ -59,6 +75,7 @@ SOURCES
     http://csai-james.yolasite.com/resources/zine3.pdf : a (very) short article depicting some old Traumae letters and old Traumae definitions
     http://superpartyawesome.com/things/traumaeinput/#ki : a JavaScript translator, from romanized Traumae into Traumae letters
     https://github.com/tekgo/Dictionaeryredux : an iOS Traumae Dictionaery
+    https://fontstruct.com/fontstructors/58371/aliceffekt
     https://www.youtube.com/watch?v=_YXK1nepTPA : A Traumae tutorial
     https://www.youtube.com/watch?v=XCFV237NETY : An explanation of the Septambres Neau letters
     https://www.youtube.com/watch?v=ZygdyPTW-NE&t=21s : Traumae pronunciation
