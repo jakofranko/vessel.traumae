@@ -33,6 +33,11 @@ def corpse.query q = nil
     return
   end
 
+  if q.like("ehrivevnv")
+    @payload = @aebeth.to_ehrivevnv
+    return
+  end
+
   if q.like("documentation")
     documentation = Documentation.new($nataniev.vessels[:traumae].path)
     # documentation.dictionaery = @dictionaery
