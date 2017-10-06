@@ -9,43 +9,52 @@ KI
     State
     Location
     Time
-
-KA
-    Intrusive
-    Stable
-    Extrusive
+    letter : q
 
 XI
     Psychological
     Physiologic
     Physical
+    letter : w
 
 SI
     Organic
     Mechanical
     Spiritual
+    letter : e
+
+KA
+    Intrusive
+    Stable
+    Extrusive
+    letter : a
 
 XA
     LOOP
     LOOP
     LOOP
+    letter : s
 
 SA
     Multiple
     Unique
     Void
+    letter : d
 
 KE
     Temper
     Colour
     Weight
+    letter : z
 
 XE
     Neutral
     Bright
     Dark
+    letter : x
 
 SE
     To Modify
     To Observ
     To Exist
+    letter : c
