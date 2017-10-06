@@ -7,6 +7,7 @@ class Documentation
 
         @h = Memory_Hash.new("documentation", path).to_h
         @index = Index.new
+        @css = ['font.ehrivevnv.css']
 
     end
 
@@ -31,7 +32,7 @@ class Documentation
 
         end
 
-        return styles + @index.to_s(true) + html
+        return styles + @index.to_s(true) + html + scripts
 
     end
 
@@ -55,8 +56,40 @@ class Documentation
             .traumae.aeth th:nth-child(2) {
                 width: 25%;
             }
+
+            .traumae.ehrivevnv {
+                width: 33.3%;
+                float: left;
+            }
+
+            .ehriv_aeth {
+                font-family: 'ehrivevnv';
+                font-size: 72px;
+            }
+
+            .traumae.ehrivevnv tr:first-child td:first-child {
+                text-align: center;
+                vertical-align: middle;
+                width: 25%;
+            }
         </style>
         "
+
+    end
+
+    def scripts
+
+        html = "<script>"
+        index = 0
+        @css.each do |file_name|
+            html += "var link_#{index} = document.createElement('link');"
+            html += "link_#{index}.rel = 'stylesheet';"
+            html += "link_#{index}.href = 'public.traumae/links/#{file_name}';"
+            html += "document.head.appendChild(link_#{index});"
+
+            index += 1
+        end
+        html += "</script>"
 
     end
 
