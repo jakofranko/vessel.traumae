@@ -27,6 +27,7 @@ def corpse.query q = nil
 
   # @dictionaery = Dictionaery.new($nataniev.vessels[:traumae].path)
   @aebeth = Aebeth.new($nataniev.vessels[:traumae].path)
+  @ehrivevnv = Ehrivevnv.new($nataniev.vessels[:traumae].path)
 
   if q.like("aebeth")
     @payload = @aebeth.to_table
@@ -34,7 +35,7 @@ def corpse.query q = nil
   end
 
   if q.like("ehrivevnv")
-    @payload = @aebeth.to_ehrivevnv
+    @payload = @ehrivevnv.to_table
     return
   end
 
