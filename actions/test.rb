@@ -17,7 +17,8 @@ class ActionTest
 
        @aebeth = Aebeth.new(@host.path)
        @documentation = Documentation.new(@host.path).to_s
-
+       @ehrivevnv = Ehrivevnv.new(@host.path)
+       print @ehrivevnv.to_letters "Ki Saxan semke"
       #  @aebeth.list
 
    end
