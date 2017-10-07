@@ -21,7 +21,10 @@ $nataniev.vessels[:traumae].corpse = corpse
 def corpse.aebeth ; return @aebeth; end
 def corpse.dictionaery ; return @dictionaery; end
 
-def corpse.query q = nil
+def corpse.query query = nil
+
+  params = query.split(" ")
+  q = params[0]
 
   load_folder "#{$nataniev.vessels[:traumae].path}/objects/*"
 
@@ -35,7 +38,19 @@ def corpse.query q = nil
   end
 
   if q.like("ehrivevnv")
-    @payload = @ehrivevnv.to_table
+    alt = params[1] && params[1] == "alt" ? true : false
+    @payload = @ehrivevnv.to_table(alt)
+    return
+  end
+
+  if q.like("sentence")
+    sentence = params[2..-1].join(" ")
+    case params[1]
+    when "ehrivevnv"
+        @payload = @ehrivevnv.to_letters(sentence)
+    when "ehrivevnv_alt"
+        @payload = @ehrivevnv.to_letters(sentence, true)
+    end
     return
   end
 
