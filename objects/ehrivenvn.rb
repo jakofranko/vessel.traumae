@@ -1,5 +1,7 @@
 class Ehrivevnv
 
+    attr_accessor :h
+
     def initialize path
 
         load_any(path, "ehriv_aeth")
@@ -25,13 +27,30 @@ class Ehrivevnv
         return dict
     end
 
-    def to_table
+    def to_table alt = nil
 
         html = ""
         @h.each do |_, aeth|
-            html += aeth.to_table
+            html += aeth.to_table(alt)
         end
 
+        return html
+
+    end
+
+    def to_letters sentence, alt = false
+
+        html = "<span class='ehriv_aeth'>"
+        words = sentence.split(" ")
+        words.each do |word|
+            word.scan(/([sxk][iea])([nm])?/i) do |root, cap|
+                if !root.nil?
+                    html += (cap == 'n') ? '-' : (cap == 'm') ? '+' : ''
+                end
+                html += alt ? @h[root.upcase].alt : @h[root.upcase].letter
+            end
+        end
+        html += "</span>"
         return html
 
     end

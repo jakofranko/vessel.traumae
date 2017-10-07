@@ -10,51 +10,60 @@ KI
     Location
     Time
     letter : q
+    alt : 3
 
 XI
     Psychological
     Physiologic
     Physical
     letter : w
+    alt : 2
 
 SI
     Organic
     Mechanical
     Spiritual
     letter : e
+    alt : 1
 
 KA
     Intrusive
     Stable
     Extrusive
     letter : a
+    alt : 6
 
 XA
     LOOP
     LOOP
     LOOP
     letter : s
+    alt : 5
 
 SA
     Multiple
     Unique
     Void
     letter : d
+    alt : 4
 
 KE
     Temper
     Colour
     Weight
     letter : z
+    alt : 9
 
 XE
-    Neutral
     Bright
+    Neutral
     Dark
     letter : x
+    alt : 8
 
 SE
     To Modify
     To Observ
     To Exist
     letter : c
+    alt : 7

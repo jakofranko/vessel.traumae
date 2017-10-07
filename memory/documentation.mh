@@ -50,8 +50,12 @@ LETTERS
     & Traumae has several scripts, or glyphs, that have been used to write it. The earliest of these scripts is called the {{Ehrivevnv}} letters(?), and they actually have slightly different meanings than the current aebeth we've already learned.
     * Ehrivevnv
     $ traumae print ehrivevnv
-    & In this script, each aeth can be capitalized by dots. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
-    ~ TODO: print out ehrivevnv sentence
+    & In this script, each aeth can be capitalized by proceding dots. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
+    & A variation of these letters also exists, that is a bit simpler and would be easier to write as well:
+    $ traumae print ehrivevnv alt
+    & Using these glyphs/letters/runes, sentences can be constructed. As an example, the sentence "I am drinking blood," which when translated to this version of Trauame would take the format 'to absorb a living red substance.' Here is the same sentence in both variants:
+    & {{$ traumae print sentence ehrivevnv xemkan semxa xim si kenke}}
+    & {{$ traumae print sentence ehrivevnv_alt xemkan semxa xim si kenke}}
     & A later version of this script evolved that is very similar:
     $ traumae print ehrivevnv_july
     & It's very similar to the previous version, but it uses lines underneath each aeth to signify capitalizations instead of dots:

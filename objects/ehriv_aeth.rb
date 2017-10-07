@@ -1,6 +1,6 @@
 class Ehriv_aeth
 
-    attr_accessor :root_meaning, :data
+    attr_accessor :root, :meanings, :letter, :alt
 
     def initialize name, data
 
@@ -9,6 +9,9 @@ class Ehriv_aeth
 
         i = @meanings.find_index { |v| v.include? "letter :" }
         @letter = @meanings.delete_at(i).split(" : ")[1]
+
+        i = @meanings.find_index { |v| v.include? "alt :" }
+        @alt = @meanings.delete_at(i).split(" : ")[1]
 
     end
 
@@ -50,7 +53,9 @@ class Ehriv_aeth
 
     end
 
-    def to_table
+    def to_table alt = nil
+
+        glyph = alt ? @alt : @letter
 
         html =  "<table class='traumae ehrivevnv'>"
 
@@ -59,7 +64,7 @@ class Ehriv_aeth
         traumae.each do |aeth|
             html += "<tr>"
             if index == 0
-                html += "<td rowspan='3' class='ehriv_aeth'>#{@letter}</td>"
+                html += "<td rowspan='3' class='ehriv_aeth'>#{glyph}</td>"
             end
             html += "<td>#{self.to_english(index)} (#{traumae[index]})</td>"
             html += "</tr>"
