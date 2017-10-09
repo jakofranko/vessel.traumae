@@ -67,6 +67,14 @@ class Documentation
                 font-size: 72px;
             }
 
+            .ehriv_aeth.july {
+                font-family: 'ehrivevnv_july';
+            }
+
+            table .july.ehriv_aeth {
+                font-size: 46px;
+            }
+
             .traumae.ehrivevnv tr:first-child td:first-child {
                 text-align: center;
                 vertical-align: middle;

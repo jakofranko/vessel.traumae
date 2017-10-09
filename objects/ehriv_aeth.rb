@@ -1,6 +1,6 @@
 class Ehriv_aeth
 
-    attr_accessor :root, :meanings, :letter, :alt
+    attr_accessor :root, :meanings, :letter, :alt, :july_letters
 
     def initialize name, data
 
@@ -12,6 +12,9 @@ class Ehriv_aeth
 
         i = @meanings.find_index { |v| v.include? "alt :" }
         @alt = @meanings.delete_at(i).split(" : ")[1]
+
+        i = @meanings.find_index { |v| v.include? "july_letters" }
+        @july_letters = @meanings.delete_at(i).split(" : ")[1].split(", ")
 
     end
 
@@ -55,20 +58,35 @@ class Ehriv_aeth
 
     def to_table alt = nil
 
-        glyph = alt ? @alt : @letter
+        glyph = case alt
+                when "alt"  then @alt
+                when "july" then @july_letters
+                else             @letter
+                end
 
         html =  "<table class='traumae ehrivevnv'>"
 
         traumae = self.capitalizations
         index = 0
-        traumae.each do |aeth|
-            html += "<tr>"
-            if index == 0
-                html += "<td rowspan='3' class='ehriv_aeth'>#{glyph}</td>"
+
+        if alt == "july"
+            traumae.each do |aeth|
+                html += "<tr>"\
+                        "<td class='ehriv_aeth #{alt}'>#{glyph[index]}</td>"\
+                        "<td>#{self.to_english(index)} (#{traumae[index]})</td>"\
+                        "</tr>"
+                index += 1
             end
-            html += "<td>#{self.to_english(index)} (#{traumae[index]})</td>"
-            html += "</tr>"
-            index += 1
+        else
+            traumae.each do |aeth|
+                html += "<tr>"
+                if index == 0
+                    html += "<td rowspan='3' class='ehriv_aeth'>#{glyph}</td>"
+                end
+                html += "<td>#{self.to_english(index)} (#{traumae[index]})</td>"
+                html += "</tr>"
+                index += 1
+            end
         end
 
         html += "</table>"

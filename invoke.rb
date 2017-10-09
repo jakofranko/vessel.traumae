@@ -38,7 +38,7 @@ def corpse.query query = nil
   end
 
   if q.like("ehrivevnv")
-    alt = params[1] && params[1] == "alt" ? true : false
+    alt = params[1] || nil
     @payload = @ehrivevnv.to_table(alt)
     return
   end
@@ -49,7 +49,9 @@ def corpse.query query = nil
     when "ehrivevnv"
         @payload = @ehrivevnv.to_letters(sentence)
     when "ehrivevnv_alt"
-        @payload = @ehrivevnv.to_letters(sentence, true)
+        @payload = @ehrivevnv.to_letters(sentence, "alt")
+    when "ehrivevnv_july"
+        @payload = @ehrivevnv.to_letters(sentence, "july")
     end
     return
   end
