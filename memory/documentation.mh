@@ -47,18 +47,20 @@ ADULTSPEAK
     * TODO
 
 LETTERS
-    & Traumae has several scripts, or glyphs, that have been used to write it. The earliest of these scripts is called the {{Ehrivevnv}} letters(?), and they actually have slightly different meanings than the current aebeth we've already learned.
+    & Several scripts have been used to visually represent Traumae, from the early Ehrivevnv letters to the later Septambres letters.
     * Ehrivevnv
+    & This series of glyphs is one of the earliest used to write Traumae, and uses a different aebeth than what has been covered so far. It is listed here for historical documentation. Each aeth family is represented by a glyph:
     $ traumae print ehrivevnv
-    & In this script, each aeth can be capitalized by proceding dots. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
+    & In this script, dots are used to signify the different meanings of each aeth by proceeding the glyph. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
     & A variation of these letters also exists, that is a bit simpler and would be easier to write as well:
     $ traumae print ehrivevnv alt
     & Using these glyphs/letters/runes, sentences can be constructed. As an example, the sentence "I am drinking blood," which when translated to this version of Trauame would take the format 'to absorb a living red substance.' Here is the same sentence in both variants:
     & {{$ traumae print sentence ehrivevnv xemkan semxa xim si kenke}}
     & {{$ traumae print sentence ehrivevnv_alt xemkan semxa xim si kenke}}
     & A later version of this script evolved that is very similar:
-    $ traumae print ehrivevnv_july
-    & It's very similar to the previous version, but it uses lines underneath each aeth to signify capitalizations instead of dots:
+    $ traumae print ehrivevnv july
+    & Lines underneath each aeth are used to signify capitalizations instead of dots. The above sentence using these letters would be:
+    & {{$ traumae print sentence ehrivevnv_july xemkan semxa xim si kenke}}
     ~ TODO: print sentence
     & These letters eventually evolved into the script known as Septambres. Its most recent incarnation is used in in {{Lietal}}.
     * Septambres

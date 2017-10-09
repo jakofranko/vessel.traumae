@@ -11,6 +11,7 @@ KI
     Time
     letter : q
     alt : 3
+    july_letters : q, Q, r
 
 XI
     Psychological
@@ -18,6 +19,7 @@ XI
     Physical
     letter : w
     alt : 2
+    july_letters : w, W, t
 
 SI
     Organic
@@ -25,6 +27,7 @@ SI
     Spiritual
     letter : e
     alt : 1
+    july_letters : e, E, y
 
 KA
     Intrusive
@@ -32,6 +35,7 @@ KA
     Extrusive
     letter : a
     alt : 6
+    july_letters : a, A, f
 
 XA
     LOOP
@@ -39,6 +43,7 @@ XA
     LOOP
     letter : s
     alt : 5
+    july_letters : s, S, g
 
 SA
     Multiple
@@ -46,6 +51,7 @@ SA
     Void
     letter : d
     alt : 4
+    july_letters : d, D, h
 
 KE
     Temper
@@ -53,6 +59,7 @@ KE
     Weight
     letter : z
     alt : 9
+    july_letters : z, Z, v
 
 XE
     Bright
@@ -60,6 +67,7 @@ XE
     Dark
     letter : x
     alt : 8
+    july_letters : x, X, b
 
 SE
     To Modify
@@ -67,3 +75,4 @@ SE
     To Exist
     letter : c
     alt : 7
+    july_letters : c, C, n
