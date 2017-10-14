@@ -43,6 +43,12 @@ def corpse.query query = nil
     return
   end
 
+  if q.like("septambres")
+    type = params[1] || nil
+    @payload = @aebeth.to_table(type)
+    return
+  end
+
   if q.like("sentence")
     sentence = params[2..-1].join(" ")
     case params[1]
