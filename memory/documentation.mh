@@ -64,9 +64,9 @@ LETTERS
     ~ TODO: print sentence
     & These letters eventually evolved into the script known as Septambres. Its most recent incarnation is used in in {{Lietal}}.
     * Septambres
-    & The Septambres letters use the aebeth detailed above (not the earlier ehrivevnv aebeth). The earliest of these is the Recit family:
+    & The Septambres letters use the aebeth detailed at the beginning of this documentation (not the ehrivevnv aebeth). The earliest of these is the Recit family, which has clear ties to the Ehrivevnv letters.
     = Recit
-    $ traumae print septambres_recit
+    $ traumae print septambres recit
     & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth.
 
 
