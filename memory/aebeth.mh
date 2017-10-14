@@ -7,6 +7,7 @@ Parent
     root : k
     vowel : i
     alt : from
+    letter : q
     notes : When describing something as being the parent of another thing, you could also say that you could also say that the other thing comes 'from' the parent, which is another way 'ki' is used.
     opposite
         meaning : Child
@@ -25,6 +26,7 @@ Parent
 Inward
     root : k
     vowel : a
+    letter : a
     opposite
         meaning : Outward
         root : p
@@ -38,6 +40,7 @@ Impossible
     root : k
     vowel : o
     alt : cannot
+    letter : z
     notes : Something that absolutely cannot happen.
     opposite
         meaning : Occurance
@@ -54,6 +57,7 @@ Impossible
 Psychological
     root : x
     vowel : i
+    letter : w
     notes : Abstract, ideas, concepts, and things of the mind.
     opposite
         meaning : Physical
@@ -70,6 +74,7 @@ Addition
     root : x
     vowel : a
     alt : greater than
+    letter : s
     opposite
         meaning : Subtraction
         root : b
@@ -84,6 +89,7 @@ Positive
     root : x
     vowel : o
     alt : good
+    letter : x
     opposite
         meaning : Negative
         root : b
@@ -98,6 +104,7 @@ Positive
 Complex
     root : s
     vowel : i
+    letter : e
     notes : Doesn't have a good english translation, but the idea is something that cannot be replicated, or replicate itself. The word for 'time' would use si, for example.
     opposite
         meaning : Synthetic
@@ -113,6 +120,7 @@ Complex
 Multiple
     root : s
     vowel : a
+    letter : d
     opposite
         meaning : None
         root : v
@@ -127,6 +135,7 @@ Communication
     root : s
     vowel : o
     alt : to see
+    letter : c
     notes : An inward interaction. Conveys the idea of processing, or understanding, but also of conversation, which is a non-physical, abstract way of interacting with concepts.
     opposite
         meaning : Interaction
