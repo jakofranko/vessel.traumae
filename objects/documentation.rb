@@ -7,7 +7,7 @@ class Documentation
 
         @h = Memory_Hash.new("documentation", path).to_h
         @index = Index.new
-        @css = ['font.ehrivevnv.css']
+        @css = ['font.ehrivevnv.css', 'font.septambres.css']
 
     end
 
@@ -57,7 +57,7 @@ class Documentation
                 width: 25%;
             }
 
-            .traumae.ehrivevnv {
+            .traumae.ehrivevnv, .traumae.septambres {
                 width: 33.3%;
                 float: left;
             }
@@ -75,10 +75,15 @@ class Documentation
                 font-size: 46px;
             }
 
-            .traumae.ehrivevnv tr:first-child td:first-child {
+            .traumae.ehrivevnv tr:first-child td:first-child,
+            .traumae.septambres tr:first-child td:first-child{
                 text-align: center;
                 vertical-align: middle;
                 width: 25%;
+            }
+
+            .septambres.recit {
+                font-family: 'septambres_recit';
             }
         </style>
         "

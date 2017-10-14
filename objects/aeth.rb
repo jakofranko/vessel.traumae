@@ -9,6 +9,19 @@ class Aeth
 
     end
 
+    def list
+
+        list = {}
+        index = 0
+        capitalization.each do |cap|
+            list[cap] = to_english(index)
+            index += 1
+        end
+
+        return list
+
+    end
+
     def to_english cap
 
         case cap
@@ -49,43 +62,68 @@ class Aeth
 
     end
 
-    def to_table
+    def to_table septambres = nil
 
-        html =  "<table class='traumae aeth'>"\
-                "<caption>#{@aeth_data["description"]}</caption>"\
-                "<thead>"\
-                "<tr>"\
-                "<th>Aeth</th>"\
-                "<th>Meaning</th>"\
-                "<th>Notes</th>"\
-                "</tr>"\
-                "</thead>"
+        html = ""
 
-        letters = self.capitalizations
-        index = 0
-        letters.each do |aeth|
-            if index == 0
-                root = @aeth_data.dup
-                root["meaning"] = @root_meaning
-            elsif index == 1
-                root = @aeth_data["median"]
-            elsif index == 2
-                root = @aeth_data["opposite"]
+        if septambres.nil?
+            html +=  "<table class='traumae aeth'>"\
+                    "<caption>#{@aeth_data["description"]}</caption>"\
+                    "<thead>"\
+                    "<tr>"\
+                    "<th>Aeth</th>"\
+                    "<th>Meaning</th>"\
+                    "<th>Notes</th>"\
+                    "</tr>"\
+                    "</thead>"
+
+            letters = self.capitalizations
+            index = 0
+            letters.each do |aeth|
+                if index == 0
+                    root = @aeth_data.dup
+                    root["meaning"] = @root_meaning
+                elsif index == 1
+                    root = @aeth_data["median"]
+                elsif index == 2
+                    root = @aeth_data["opposite"]
+                end
+
+                alt = !root["alt"].nil? ? ", " + root["alt"] : ""
+                notes = !root["notes"].nil? ? root["notes"] : ""
+
+                html += "<tr>"\
+                        "<td><strong>#{aeth}</strong></td>"\
+                        "<td>#{root["meaning"] + alt}</td>"\
+                        "<td>#{notes}</td>"\
+                        "</tr>"
+
+                index += 1
             end
 
-            alt = !root["alt"].nil? ? ", " + root["alt"] : ""
-            notes = !root["notes"].nil? ? root["notes"] : ""
+            html += "</table>"
 
-            html += "<tr>"\
-                    "<td><strong>#{aeth}</strong></td>"\
-                    "<td>#{root["meaning"] + alt}</td>"\
-                    "<td>#{notes}</td>"\
-                    "</tr>"
+        else
+            case septambres
+            when "recit"
+                html += "<table class='traumae septambres'>"
 
-            index += 1
+                index = 0
+                capitalizations.each do |cap|
+                    html += "<tr>"
+                    if index == 0
+                        html += "<td class='septambres recit' rowspan='3'>#{@aeth_data["letter"]}</td>"
+                    end
+                    html += "<td>#{cap}</td>"
+                    html += "</tr>"
+
+                    index += 1
+                end
+
+                html += "</table>"
+            end
         end
 
-        html += "</table>"
         return html
 
     end

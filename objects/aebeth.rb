@@ -25,11 +25,11 @@ class Aebeth
         return dict
     end
 
-    def to_table
+    def to_table type = nil
 
         html = ""
         @h.each do |_, aeth|
-            html += aeth.to_table
+            html += aeth.to_table(type)
         end
 
         return html
