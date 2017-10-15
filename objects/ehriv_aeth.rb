@@ -64,7 +64,7 @@ class Ehriv_aeth
                 else             @letter
                 end
 
-        html =  "<table class='traumae ehrivevnv'>"
+        html =  "<table class='traumae ehrivevnv letters'>"
 
         traumae = self.capitalizations
         index = 0

@@ -13,11 +13,13 @@ Parent
         meaning : Child
         alt : by, in
         root : p
+        letter : u
         notes : When describing something as being the child of another thing, like a piece of art to a person, you could say that the art is 'by' the person.
     median
         meaning : Instance
         alt : at
         root : t
+        letter : r
         notes : Not really a biological concept, but has the idea of a clone, or 'selfness,' instead of being from something, or the originator of something.
     description : Describes the point of origin, or relationship between people, places or things.
 
@@ -30,9 +32,11 @@ Inward
     opposite
         meaning : Outward
         root : p
+        letter : j
     median
         meaning : Stasis
         root : t
+        letter : f
     description : Describes movement and/or placement of a thing. The movement could be linear, but also could be three dimensional, the idea of expanding or contracting. Placement could be within yourself, or outside, used to refer to another person.
 
 ~ ko, to, po
@@ -46,11 +50,13 @@ Impossible
         meaning : Occurance
         root : p
         alt : must
+        letter : m
         notes : Something that is absolutely going to happen.
     median
         meaning : Possible
         root : t
         alt : could
+        letter : v
     description : Describes possibility, probability, and what has already happened or what must happen.
 
 ~ xi, di, bi
@@ -62,10 +68,12 @@ Psychological
     opposite
         meaning : Physical
         root : b
+        letter : i
         notes : Concrete, things you can touch.
     median
         meaning : Physionomical
         root : d
+        letter : t
         notes : The concept or shape of physical things, inbetween the things purely of the mind and purely of the body.
     description : Describes whether a thing is physical, something you could touch, or whether it is an idea or concept, or whether it is a description, or formula. Take for example a circle. Bi would be the circle itself. Xi would be outside the circle, looking in upon it. Di would be the edge of the circle.
 
@@ -79,9 +87,11 @@ Addition
         meaning : Subtraction
         root : b
         alt : less than
+        letter : k
     median
         meaning : Equal
         root : d
+        letter : g
     description : Describes simple arithmetic, but also carries the connotation of comparison.
 
 ~ xo, do, bo
@@ -94,10 +104,12 @@ Positive
         meaning : Negative
         root : b
         alt : bad
+        letter : ,
     median
         meaning : Unknown
         root : d
         alt : negative
+        letter : b
     description : Describes alignment or quality.
 
 ~ si, li, vi
@@ -109,10 +121,12 @@ Complex
     opposite
         meaning : Synthetic
         root : v
+        letter : o
         notes : something that can be replicated, or that is 'man-made.'
     median
         meaning : Organic
         root : l
+        letter : y
         notes : Something that is hard or impossible to make or replicate, but that reproduces itself.
     description : Describes the 'arena,' or 'kingdom,' or perhaps 'nature' of a thing. Most tools are vi. Most living organisms could be described with li. Si would describe things like time, gravity, space, etc.
 
@@ -124,10 +138,12 @@ Multiple
     opposite
         meaning : None
         root : v
+        letter : l
     median
         meaning : One
         root : l
         alt : few
+        letter : h
     description : Describes the amount, or number of a thing.
 
 ~ so, lo, vo
@@ -141,10 +157,12 @@ Communication
         meaning : Interaction
         root : v
         alt : to do
+        letter : .
         notes : Direct interaction, physical interaction, and the idea also of intervention. Carries an idea of action, of doing.
     median
         meaning : Passive
         root : l
         alt : to be
+        letter : n
         notes : Neither inwardly nor outwardly interacting with a thing, but simply existing, or being.
     description : Describes action, or state, the way that one thing interacts with the things around it.

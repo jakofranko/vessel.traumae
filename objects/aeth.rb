@@ -35,6 +35,23 @@ class Aeth
 
     end
 
+    def to_letter cap
+
+       letter = nil
+       case cap
+       when 0
+           letter = @aeth_data["letter"]
+       when 1
+           letter = @aeth_data["median"]["letter"]
+       when 2
+           letter = @aeth_data["opposite"]["letter"]
+       end
+
+       return letter
+
+    end
+
+
     def capitalization cap
 
         vowel = @aeth_data["vowel"]
@@ -104,19 +121,17 @@ class Aeth
             html += "</table>"
 
         else
+            c = "septambres-#{septambres}"
             case septambres
             when "recit"
-                html += "<table class='traumae septambres'>"
+                html += "<table class='traumae letters'>"
 
                 index = 0
                 capitalizations.each do |cap|
-                    html += "<tr>"
-                    if index == 0
-                        html += "<td class='septambres recit' rowspan='3'>#{@aeth_data["letter"]}</td>"
-                    end
-                    html += "<td>#{cap}</td>"
-                    html += "</tr>"
-
+                    html += "<tr>
+                             <td class='#{c}'>#{to_letter(index)}</td>
+                             <td>#{cap}</td>
+                             </tr>"
                     index += 1
                 end
 
