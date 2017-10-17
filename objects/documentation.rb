@@ -75,14 +75,18 @@ class Documentation
                 font-size: 46px;
             }
 
-            .traumae.ehrivevnv tr:first-child td:first-child {
+            .traumae.letters tr:first-child td:first-child {
                 text-align: center;
                 vertical-align: middle;
-                width: 25%;
+                width: 18%;
             }
 
             .septambres-recit {
                 font-family: 'septambres_recit';
+            }
+
+            table .septambres-recit {
+                font-size: 20px;
             }
         </style>
         "
