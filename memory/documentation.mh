@@ -67,7 +67,16 @@ LETTERS
     & The Septambres letters use the aebeth detailed at the beginning of this documentation (not the ehrivevnv aebeth). The earliest of these is the Recit family, which has clear ties to the Ehrivevnv letters.
     = Recit
     $ traumae print septambres recit
-    & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth.
+    & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth. Below is the sentence "Lost in space I find myself:"
+    = Neau
+    $ traumae print septambres neau
+    & TODO
+    = Lith
+    $ traumae print septambres lith
+    & TODO
+    = Fune
+    $ traumae print septambres fune
+    & TODO
 
 
 
