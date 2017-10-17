@@ -130,7 +130,7 @@ class Aeth
                 capitalizations.each do |cap|
                     html += "<tr>
                              <td class='#{c}'>#{to_letter(index)}</td>
-                             <td>#{cap}</td>
+                             <td>#{cap} - #{to_english(index)}</td>
                              </tr>"
                     index += 1
                 end
