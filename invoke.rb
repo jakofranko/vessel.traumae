@@ -58,6 +58,8 @@ def corpse.query query = nil
         @payload = @ehrivevnv.to_letters(sentence, "alt")
     when "ehrivevnv_july"
         @payload = @ehrivevnv.to_letters(sentence, "july")
+    when "septambres_recit"
+        @payload = @aebeth.to_letters(sentence, "recit")
     end
     return
   end
