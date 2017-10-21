@@ -65,6 +65,7 @@ class Documentation
             .ehriv_aeth {
                 font-family: 'ehrivevnv';
                 font-size: 72px;
+                line-height: 1em;
             }
 
             .ehriv_aeth.july {
