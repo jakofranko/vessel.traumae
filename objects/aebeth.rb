@@ -25,6 +25,21 @@ class Aebeth
         return dict
     end
 
+    def letters
+
+        letters = {}
+        @h.each do |_, aeth|
+            cap = 0
+            aeth.capitalizations.each do |capitalization|
+                letters[capitalization] = aeth.to_letter(cap)
+                cap += 1
+            end
+        end
+
+        return letters
+
+    end
+
     def to_table type = nil
 
         html = ""
@@ -32,6 +47,29 @@ class Aebeth
             html += aeth.to_table(type)
         end
 
+        return html
+
+    end
+
+    def to_letters sentence, type
+
+        l = letters
+        roots = ['k', 'x', 's']
+        medians = ['t', 'd', 'l']
+        opposites = ['p', 'b', 'v']
+        html = "<span class='septambres_#{type}'>"
+
+        index = 0
+        words = sentence.split(" ")
+        words.each do |word|
+           word.scan(/([ktpxdbslv][iao])/) do |aeths|
+                aeths.each {|aeth| html += l[aeth] }
+           end
+           index += 1
+           html += index < words.length ? " " : ""
+        end
+
+        html += "</span>"
         return html
 
     end
