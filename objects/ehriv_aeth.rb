@@ -61,6 +61,9 @@ class Ehriv_aeth
         glyph = case alt
                 when "alt"  then @alt
                 when "july" then @july_letters
+                when "neau" then @july_letters
+                when "lith" then @july_letters
+                when "fune" then @july_letters
                 else             @letter
                 end
 
@@ -69,7 +72,7 @@ class Ehriv_aeth
         traumae = self.capitalizations
         index = 0
 
-        if alt == "july"
+        if alt == "july" || alt == "neau" || alt == "lith" || alt == "fune"
             traumae.each do |aeth|
                 html += "<tr>"\
                         "<td class='ehriv_aeth #{alt}'>#{glyph[index]}</td>"\

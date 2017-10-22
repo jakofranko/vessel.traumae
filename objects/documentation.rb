@@ -84,11 +84,37 @@ class Documentation
 
             .septambres-recit {
                 font-family: 'septambres_recit';
+                font-size: 48px;
             }
-
             table .septambres-recit {
                 font-size: 20px;
             }
+
+            .neau {
+                font-family: 'septambres_neau';
+                font-size: 48px;
+            }
+            table .neau {
+                font-size: 20px;
+            }
+
+            .fune {
+                font-family: 'septambres_fune';
+                font-size: 72px;
+            }
+            table .fune {
+                font-size: 40px;
+            }
+
+            .lith {
+                font-family: 'septambres_lith';
+                font-size: 16px;
+            }
+            table .lith {
+                font-size: 5px;
+            }
+
+
         </style>
         "
 

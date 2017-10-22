@@ -46,7 +46,7 @@ class Ehrivevnv
         words = sentence.split(" ")
         words.each do |word|
             word.scan(/([sxk][iea])([nm])?/i) do |root, cap|
-                if alt == "july"
+                if alt == "july" || alt == "neau"|| alt == "lith" || alt == "fune"
                     html += cap.nil? ?  @h[root.upcase].july_letters[0] : cap == 'n' ? @h[root.upcase].july_letters[1] : @h[root.upcase].july_letters[2]
                 else
                     if !root.nil?

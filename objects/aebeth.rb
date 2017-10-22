@@ -57,7 +57,7 @@ class Aebeth
         roots = ['k', 'x', 's']
         medians = ['t', 'd', 'l']
         opposites = ['p', 'b', 'v']
-        html = "<span class='septambres_#{type}'>"
+        html = "<span class='septambres-#{type}'>"
 
         index = 0
         words = sentence.split(" ")
