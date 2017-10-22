@@ -1,9 +1,11 @@
-~ NAME : The Ehrivevnv Aebeth
+~ NAME : The Early Aebeth
 ~ NOTE : An older version of Traumae, found here: http://csai-james.yolasite.com/resources/zine3.pdf
 ~ NOTE : The romanized version of each aeth has three capitalizations. The first is the given root, while the second capitalization is found by adding 'N' and the third by adding 'M.'
 ~ NOTE : Each aeth also has a mapping letter, which is the keyboard letter the ehrivevnv font glyph is bound to.
 ~ AUTH : Devine Lu Linvega
 ~ EDIT : Jake Franklin
+
+~ TODO : Rename 'july_letters' to something else
 
 KI
     State
@@ -11,7 +13,7 @@ KI
     Time
     letter : q
     alt : 3
-    july_letters : q, Q, r
+    july_letters : r, q, Q
 
 XI
     Psychological
@@ -19,7 +21,7 @@ XI
     Physical
     letter : w
     alt : 2
-    july_letters : w, W, t
+    july_letters : t, w, W
 
 SI
     Organic
@@ -27,7 +29,7 @@ SI
     Spiritual
     letter : e
     alt : 1
-    july_letters : e, E, y
+    july_letters : y, e, E
 
 KA
     Intrusive
@@ -35,7 +37,7 @@ KA
     Extrusive
     letter : a
     alt : 6
-    july_letters : a, A, f
+    july_letters : f, a, A
 
 XA
     LOOP
@@ -43,7 +45,7 @@ XA
     LOOP
     letter : s
     alt : 5
-    july_letters : s, S, g
+    july_letters : g, s, S
 
 SA
     Multiple
@@ -51,7 +53,7 @@ SA
     Void
     letter : d
     alt : 4
-    july_letters : d, D, h
+    july_letters : h, d, D
 
 KE
     Temper
@@ -59,7 +61,7 @@ KE
     Weight
     letter : z
     alt : 9
-    july_letters : z, Z, v
+    july_letters : v, z, Z
 
 XE
     Bright
@@ -67,12 +69,12 @@ XE
     Dark
     letter : x
     alt : 8
-    july_letters : x, X, b
+    july_letters : b, x, X
 
 SE
     To Modify
-    To Observ
+    To Observe
     To Exist
     letter : c
     alt : 7
-    july_letters : c, C, n
+    july_letters : n, c, C
