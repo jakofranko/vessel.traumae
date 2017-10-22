@@ -6,6 +6,48 @@
 INTRODUCTION
     * Aebeth
     & The foundation of Traumae is its aebeth. The aebeth is composed of 9 letters, or 'aeths,' which in turn each have three capitalizations. Each aeth represents a concept, and each capitalization represents a spectrum of that concept.
+    * Letters
+    & Various glyphs have been devised to represent the Traumae aeths and their capitalizations. These letters were used most in the earlier versions of Traumae, which was not intended to be conversational as much as declarative.
+    * Adultspeak/Childspeak
+    & As Trauame evolved and developed more conversational aspects, a distinction emerged between a more easily spoken "adultspeak," which concatinates duplicate consonates and vowels and is more easly spoken, and "childspeak," which is the precise spelling of each aeth.
+
+EARLY TRAUMAE
+    & TODO -- Several scripts have been used to visually represent Traumae, from the early Ehrivevnv letters to the later Septambres letters.
+    * Ehrivevnv
+    & This series of glyphs is one of the earliest used to write Traumae, and uses a different aebeth than what has been covered so far. It is listed here for historical documentation. Each aeth family is represented by a glyph:
+    $ traumae print ehrivevnv
+    & In this script, dots are used to signify the different meanings of each aeth by proceeding the glyph. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
+    & A variation of these letters also exists, that is a bit simpler and would be easier to write as well:
+    $ traumae print ehrivevnv alt
+    & Using these glyphs/letters/runes, sentences can be constructed. As an example, the sentence "I am drinking blood," which when translated to this version of Trauame would take the format 'to absorb a living red substance.' Here is the same sentence in both variants:
+    & {{$ traumae print sentence ehrivevnv xemkan semxa xim si kenke}}
+    & {{$ traumae print sentence ehrivevnv_alt xemkan semxa xim si kenke}}
+    & A later version of this script evolved that is very similar:
+    $ traumae print ehrivevnv july
+    & Lines underneath each aeth are used to signify capitalizations instead of dots. The above sentence using these letters would be:
+    & {{$ traumae print sentence ehrivevnv_july xemkan semxa xim si kenke}}
+    & These letters eventually evolved into the script known as Septambres. Its most recent incarnation is used in in {{Lietal}}.
+    * Septambres
+    & The early Septambres letters use the are all variations on the theme seen with the the later Ehrivevnv letters, with a root glyph signifying the core aeth, and modifications to this root glyph signifying the capitalizations.
+    = Neau
+    & These letters can be found on the walls in various places in {{Hiversaires}}
+    $ traumae print ehrivevnv neau
+    & {{$ traumae print sentence septambres_neau xemkan semxa xim si kenke}}
+    = Lith
+    $ traumae print ehrivevnv lith
+    & TODO
+    & {{$ traumae print sentence septambres_lith xemkan semxa xim si kenke}}
+    = Fune
+    $ traumae print ehrivevnv fune
+    & {{$ traumae print sentence septambres_fune xemkan semxa xim si kenke}}
+    = Recit
+    $ traumae print septambres recit
+    & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth. Below is the sentence "Lost in space, I find myself":
+    & {{$ traumae print sentence septambres_recit pi vabi so ti}}
+
+
+LATER TRAUMAE
+    & TODO
     $ traumae print aebeth
     & While it is acurate to describe each aeth as a letter (see <a href="#letters">the notes on Traumae's various scripts</a>), the aebeth is also the sum of Traumae's morphemes, out of which all words are built.
 
@@ -46,45 +88,11 @@ SENTENCES
 ADULTSPEAK
     * TODO
 
-LETTERS
-    & Several scripts have been used to visually represent Traumae, from the early Ehrivevnv letters to the later Septambres letters.
-    * Ehrivevnv
-    & This series of glyphs is one of the earliest used to write Traumae, and uses a different aebeth than what has been covered so far. It is listed here for historical documentation. Each aeth family is represented by a glyph:
-    $ traumae print ehrivevnv
-    & In this script, dots are used to signify the different meanings of each aeth by proceeding the glyph. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
-    & A variation of these letters also exists, that is a bit simpler and would be easier to write as well:
-    $ traumae print ehrivevnv alt
-    & Using these glyphs/letters/runes, sentences can be constructed. As an example, the sentence "I am drinking blood," which when translated to this version of Trauame would take the format 'to absorb a living red substance.' Here is the same sentence in both variants:
-    & {{$ traumae print sentence ehrivevnv xemkan semxa xim si kenke}}
-    & {{$ traumae print sentence ehrivevnv_alt xemkan semxa xim si kenke}}
-    & A later version of this script evolved that is very similar:
-    $ traumae print ehrivevnv july
-    & Lines underneath each aeth are used to signify capitalizations instead of dots. The above sentence using these letters would be:
-    & {{$ traumae print sentence ehrivevnv_july xemkan semxa xim si kenke}}
-    ~ TODO: print sentence
-    & These letters eventually evolved into the script known as Septambres. Its most recent incarnation is used in in {{Lietal}}.
-    * Septambres
-    & The Septambres letters use the aebeth detailed at the beginning of this documentation (not the ehrivevnv aebeth). The earliest of these is the Recit family, which has clear ties to the Ehrivevnv letters.
-    = Recit
-    $ traumae print septambres recit
-    & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth. Below is the sentence "Lost in space, I find myself":
-    & {{$ traumae print sentence septambres_recit pi vabi so ti}}
-    = Neau
-    $ traumae print septambres neau
-    & TODO
-    = Lith
-    $ traumae print septambres lith
-    & TODO
-    = Fune
-    $ traumae print septambres fune
-    & TODO
-
-
-
 DICTIONAERY
     * TODO
 
 TRANSLATOR
+    * TODO
 
 SOURCES
     http://spacecollective.org/ika/2378/T-R-A-U-M-A-LANGUAGE-LEARNING : an explanation of Traumae grammar
