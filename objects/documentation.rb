@@ -79,7 +79,7 @@ class Documentation
             .traumae.letters tr:first-child td:first-child {
                 text-align: center;
                 vertical-align: middle;
-                width: 18%;
+                width: 17%;
             }
 
             .septambres-recit {

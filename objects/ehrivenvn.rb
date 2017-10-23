@@ -42,7 +42,6 @@ class Ehrivevnv
 
         html = "<span class='ehriv_aeth #{alt}'>"
 
-        word_count = 0
         words = sentence.split(" ")
         words.each do |word|
             word.scan(/([sxk][iea])([nm])?/i) do |root, cap|
@@ -55,9 +54,6 @@ class Ehrivevnv
                     html += alt ? @h[root.upcase].alt : @h[root.upcase].letter
                 end
             end
-
-            word_count += 1
-            html += word_count < words.length ? " " : ""
         end
         html += "</span>"
         return html
