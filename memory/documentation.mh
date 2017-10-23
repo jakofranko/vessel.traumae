@@ -7,17 +7,26 @@ INTRODUCTION
     * Aebeth
     & The foundation of Traumae is its aebeth. The aebeth is composed of 9 letters, or 'aeths,' which in turn each have three capitalizations. Each aeth represents a concept, and each capitalization represents a spectrum of that concept.
     * Letters
-    & Various glyphs have been devised to represent the Traumae aeths and their capitalizations. These letters were used most in the earlier versions of Traumae, which was not intended to be conversational as much as declarative.
+    & Various glyphs have been devised to represent the Traumae aeths and their capitalizations. These letters were used most in the earlier versions of Traumae, which were not intended to be conversational as much as declarative.
     * Adultspeak/Childspeak
     & As Trauame evolved and developed more conversational aspects, a distinction emerged between a more easily spoken "adultspeak," which concatinates duplicate consonates and vowels and is more easly spoken, and "childspeak," which is the precise spelling of each aeth.
+    * Evolution
+    & Trauame has seen many revisions. Since each aeth represents a certain realm of conceptspace, the meanings of the aeths have shifted in order to allow for a wider breadth of expression. By and large however, there are two main aebeths that seem to exist. The first aebeth was developed when Trauame was used as a more declarative, rather than conversational, language. As such, a large number of runes and glyphs were devised to represent Trauame visually. However, no dictionary exists for this early aebeth, and so the meanings of words can only be roughly estimated.
+    & A later aebeth exists that uses a version of the early "Ehrivevnv" letters, and also has a quite extensive dictionary of known words.
+    & Eventually, Traumae became {{Lietal}}, which is under active development.
 
-EARLY TRAUMAE
-    & TODO -- Several scripts have been used to visually represent Traumae, from the early Ehrivevnv letters to the later Septambres letters.
+SPELLING & GRAMMAR
+    & Words are constructed by combining aeths together in order to describe the concept of a thing. For example, a book could be described as a container of ideas. As such, you would use the letters Xim Ka, a physical container, and Xa Si Sin, multiple psychological constructs.
+    & Sentences, or 'expressions,' are very simple, containing subject, verb, and sometimes an object. If something is happening in the present or future, the verb precedes the subject. If the past tense, the subject must precede the verb.
+    & Early versions of Traumae have a concept of a 'loop' particle, which is used both to link concepts in order to form more complex sentences, and as a way of signifying a question (like a question mark).
+
+LETTERS
     * Ehrivevnv
-    & This series of glyphs is one of the earliest used to write Traumae, and uses a different aebeth than what has been covered so far. It is listed here for historical documentation. Each aeth family is represented by a glyph:
+    & This series of glyphs is one of the earliest used to write Traumae. Each aeth family is represented by a glyph:
     $ traumae print ehrivevnv
     & In this script, dots are used to signify the different meanings of each aeth by proceeding the glyph. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
-    & A variation of these letters also exists, that is a bit simpler and would be easier to write as well:
+    & These letters were used in the album art for {{Telekinetic}}
+    & A variation of these letters also exists, that is a bit simpler and would be easier to write as well. These runes can be seen on the album art for {{The Opal Inquisitors}}.
     $ traumae print ehrivevnv alt
     & Using these glyphs/letters/runes, sentences can be constructed. As an example, the sentence "I am drinking blood," which when translated to this version of Trauame would take the format 'to absorb a living red substance.' Here is the same sentence in both variants:
     & {{$ traumae print sentence ehrivevnv xemkan semxa xim si kenke}}
@@ -35,21 +44,20 @@ EARLY TRAUMAE
     & {{$ traumae print sentence septambres_neau xemkan semxa xim si kenke}}
     = Lith
     $ traumae print ehrivevnv lith
-    & TODO
     & {{$ traumae print sentence septambres_lith xemkan semxa xim si kenke}}
     = Fune
     $ traumae print ehrivevnv fune
     & {{$ traumae print sentence septambres_fune xemkan semxa xim si kenke}}
-    = Recit
-    $ traumae print septambres recit
-    & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth. Below is the sentence "Lost in space, I find myself":
-    & {{$ traumae print sentence septambres_recit pi vabi so ti}}
-
 
 LATER TRAUMAE
-    & TODO
+    & Eventually, Traumae evolved and the meaning of the aeths changed slightly to encompass a broader conceptspace. The aebeth changed, but with the change came a greater understanding of the purpose of each aeth.
     $ traumae print aebeth
-    & While it is acurate to describe each aeth as a letter (see <a href="#letters">the notes on Traumae's various scripts</a>), the aebeth is also the sum of Traumae's morphemes, out of which all words are built.
+    = Recit
+    & The recit letters can be used to write both the earlier and later versions of the aebeth.
+    $ traumae print septambres recit
+    & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth. Below is the sentence "Lost in space, I find myself":
+    & {{$ traumae print sentence septambres_recit pi vabi soti}}
+    & This later version of Traumae is more diverse and allows for more conversational interaction, and will be used for the rest of the documentation.
 
 BASIC VOCABULARY
     * Simple Answers
