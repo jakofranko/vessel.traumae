@@ -79,7 +79,7 @@ class Documentation
             .traumae.letters tr:first-child td:first-child {
                 text-align: center;
                 vertical-align: middle;
-                width: 17%;
+                width: 15%;
             }
 
             .septambres-recit {
@@ -108,7 +108,8 @@ class Documentation
 
             .lith {
                 font-family: 'septambres_lith';
-                font-size: 16px;
+                font-size: 14px;
+                line-height: 5em;
             }
             table .lith {
                 font-size: 5px;
