@@ -84,17 +84,33 @@ SENTENCES
     & To translate this into Traumae, we need to flip the word order around, starting with the most generic concept, and ending with the most specific concept. The English phrasing would be more like "In Traumae, what is X?"
     # Pi traumae, do lo "X"?
     & Here we see the word "pi" is used to describe the "things/children of traumae," and this thought is then modified the thought of an unknown thing. The question mark designates it as a question instead of a statement, and in conversation this would be indicated by vocal inflection just like in English.
-    & This sentence could be diagramed like pi(traumae), do(lo("X")).
+    & This sentence could be diagramed like pi(traumae), do(lo("X")), which in English would be of(Traumae) unknown(to be("X")).
+    & Another example would be answering the question "dosa?" or "how many?" with "lo la": "there is one." If we wanted to be more specific, and add another aeth to our expression, we would combine lo and la and add our third aeth, for example 'xi': "lola xi." To say "there is one good idea" we could say "lola xi xo." To say "there is one good idea among many" you would say "lola xixo ti sa."
+    & Notice how words are combined: at most there can be one modifier before it is combined with it's neighbor to become it's own word. Also, aeths are never combined in groups larger than two. This is significant as it pertains to how Traumae is spoken via 'adultspeak.'
     * A Conversation
     & Putting everything learned so far into practice, here is an example of a short conversation in Traumae
     # Xoka
     # Xoka! Dolo pa?
-    # Loka. Pi traumae, do lo "something?"
+    # Loka. Xa pa?
+    # Loka. Ti so...pi traumae, do lo "something?"
     # Pi traumae, "something" lo "lado"
-    & "Dolo pa?" is a question: unknown(to be) outward, or "how are you?" And the other person responds "Loka:" I'm good. Then, the same person asks the other how to say "something" in Traumae. The other person responds that the word for something is "lado." Can you figure out why "lado" is the word for something?
+    # Tiso lado...xopa!
+    # Xopa!
+    & "Dolo pa?" is a question: unknown(to be) outward, or "how are you?" And the other person responds "Loka:" I'm good. Then, the first person says they are looking for...and don't know how to say 'something' so they ask the other how to say "something" in Traumae. The other person responds that the word for something is "lado." The first person says they are looking for something and then says good bye. Can you figure out why "lado" is the word for something?
 
 ADULTSPEAK
-    * TODO
+    & When spoken conversationally, Traumae words are often contracted, removing duplicated consonants and vowels. This contracted form of speech is called 'adultspeak', while the exact pronunciation of words as they are spelled is called 'childspeak.'
+    & For example, the word 'xobo,' would be pronounced 'xob'. Likewise, the word 'tati' would be shortend to 'tai.'
+    & In addition to just removing duplicated letters, the order of the letters is also changed around for ease of pronunciation. This happens in one of two ways: either by inverting the second aeth's letters, or by placing the second aeth's consonant after the first aeth's consonant. Thus, 'xoka' becomes 'xoak,' and 'dovo' could also become 'dvo.'
+    * Example conversation
+    & A more accurate version of how the conversation in the last section might be pronounced:
+    # {{$ traumae print adultspeak Xoka}}
+    # {{$ traumae print adultspeak Xoka! Dolo pa?}}
+    # {{$ traumae print adultspeak Loka. Xa pa?}}
+    # {{$ traumae print adultspeak Loka. Ti so...pi traumae, do lo "something?"}}
+    # {{$ traumae print adultspeak Pi traumae, "something" lo "lado"}}
+    # {{$ traumae print adultspeak Tiso lado...xopa!}}
+    # {{$ traumae print adultspeak Xopa!}}
 
 DICTIONAERY
     * TODO
