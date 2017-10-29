@@ -70,6 +70,12 @@ def corpse.query query = nil
     return
   end
 
+  if q.like("adultspeak")
+    sentence = params[1..-1].join(" ")
+    @payload = @aebeth.to_adultspeak(sentence)
+    return
+  end
+
   if q.like("documentation")
     documentation = Documentation.new($nataniev.vessels[:traumae].path)
     # documentation.dictionaery = @dictionaery
