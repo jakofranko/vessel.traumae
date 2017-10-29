@@ -74,4 +74,44 @@ class Aebeth
 
     end
 
+    def to_adultspeak sentence
+
+        adultspeak = ""
+        words = sentence.split(" ")
+        words.each do |word|
+
+            aeth_count = 0
+            added = false
+
+            # Regex for finding traumae aeths followed by punctuation.
+            # Ignore stuff in quotes:
+            # https://stackoverflow.com/questions/6462578/alternative-to-regex-match-all-instances-not-inside-quotes
+            word.scan(/"[^"]+"|([ktpxdbslv][iao])(\.{3,3}|[\!\?\.])?/i) do |aeth|
+                next if aeth[0].nil?
+
+                if aeth_count == 0
+                    adultspeak += aeth[0]
+                elsif aeth_count == 1
+                    adultspeak += aeth[0].reverse
+                else
+                    throw "Malformed sentence. Word count is #{aeth_count} and the word is #{word}"
+                end
+
+                aeth_count += 1
+                added = true
+
+                if aeth[1]
+                    aeth_count = 0
+                    adultspeak += aeth[1]
+                end
+            end
+
+            adultspeak += word unless added
+            adultspeak += " "
+
+        end
+
+        return adultspeak
+    end
+
 end
