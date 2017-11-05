@@ -111,6 +111,10 @@ class Aebeth
 
         end
 
+        # Parse sentence for words that have repeated vowels and consonants
+        adultspeak.gsub!(/([aio])\1/) {|match| match[0] }
+        adultspeak.gsub!(/([ktpxdbslv])([aio]+)\1/) {|match| Regexp.last_match[1] + Regexp.last_match[2] }
+
         return adultspeak
     end
 
