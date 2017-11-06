@@ -100,10 +100,10 @@ class Documentation
 
             .fune {
                 font-family: 'septambres_fune';
-                font-size: 72px;
+                font-size: 96px;
             }
             table .fune {
-                font-size: 40px;
+                font-size: 48px;
             }
 
             .lith {
