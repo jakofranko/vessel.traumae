@@ -94,7 +94,7 @@ SENTENCES
     # Loka. Xa pa?
     # Loka. Ti so...pi traumae, do lo "something?"
     # Pi traumae, "something" lo "lado"
-    # Tiso lado...xopa!
+    # So lado...xopa!
     # Xopa!
     & "Dolo pa?" is a question: unknown(to be) outward, or "how are you?" And the other person responds "Loka:" I'm good. Then, the first person says they are looking for...and don't know how to say 'something' so they ask the other how to say "something" in Traumae. The other person responds that the word for something is "lado." The first person says they are looking for something and then says good bye. Can you figure out why "lado" is the word for something?
 
@@ -113,7 +113,7 @@ ADULTSPEAK
     # {{$ traumae print adultspeak Xopa!}}
 
 DICTIONAERY
-    * TODO
+    $ traumae print dictionaery
 
 TRANSLATOR
     * TODO
