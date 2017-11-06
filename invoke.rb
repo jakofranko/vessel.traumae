@@ -28,7 +28,7 @@ def corpse.query query = nil
 
   load_folder "#{$nataniev.vessels[:traumae].path}/objects/*"
 
-  # @dictionaery = Dictionaery.new($nataniev.vessels[:traumae].path)
+  @dictionaery = Dictionaery.new($nataniev.vessels[:traumae].path)
   @aebeth = Aebeth.new($nataniev.vessels[:traumae].path)
   @ehrivevnv = Ehrivevnv.new($nataniev.vessels[:traumae].path)
 
@@ -78,7 +78,6 @@ def corpse.query query = nil
 
   if q.like("documentation")
     documentation = Documentation.new($nataniev.vessels[:traumae].path)
-    # documentation.dictionaery = @dictionaery
     @payload = documentation.to_s
     return
   end
