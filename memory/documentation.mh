@@ -113,10 +113,12 @@ ADULTSPEAK
     # {{$ traumae print adultspeak Xopa!}}
 
 DICTIONAERY
+    * Traumae to English
     $ traumae print dictionaery
 
 TRANSLATOR
-    * TODO
+    * English to Traumae
+    > <div id="translator"></div>
 
 SOURCES
     http://spacecollective.org/ika/2378/T-R-A-U-M-A-LANGUAGE-LEARNING : an explanation of Traumae grammar
