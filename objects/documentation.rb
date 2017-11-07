@@ -134,6 +134,7 @@ class Documentation
             index += 1
         end
         html += "</script>"
+        html += "<script src='public.traumae/scripts/translator.js'></script>"
 
     end
 
