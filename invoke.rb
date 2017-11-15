@@ -13,6 +13,7 @@ load_folder("#{$nataniev.vessels[:traumae].path}/actions/*")
 $nataniev.vessels[:traumae].install(:generic,:document)
 $nataniev.vessels[:traumae].install(:generic,:print)
 $nataniev.vessels[:traumae].install(:custom,:test)
+$nataniev.vessels[:traumae].install(:custom,:generate)
 
 corpse = CorpseHttp.new($nataniev.vessels[:traumae])
 
