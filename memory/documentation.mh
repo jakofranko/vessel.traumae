@@ -116,7 +116,7 @@ DICTIONAERY
     * Traumae to English
     $ traumae print dictionaery
 
-TRANSLATOR
+TRANSLATE
     * English to Traumae
     > <div id="translator"></div>
 
