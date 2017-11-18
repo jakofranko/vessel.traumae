@@ -9,14 +9,14 @@ INTRODUCTION
     * Letters
     & Various glyphs have been devised to represent the Traumae aeths and their capitalizations. These letters were used most in the earlier versions of Traumae, which were not intended to be conversational as much as declarative.
     * Adultspeak/Childspeak
-    & As Trauame evolved and developed more conversational aspects, a distinction emerged between a more easily spoken "adultspeak," which concatinates duplicate consonates and vowels and is more easly spoken, and "childspeak," which is the precise spelling of each aeth.
+    & As Trauame evolved and developed more conversational aspects, a distinction emerged between a more easily spoken "adultspeak," which concatinates duplicate consonates and vowels, and "childspeak," which is the precise spelling of each aeth.
     * Evolution
     & Trauame has seen many revisions. Since each aeth represents a certain realm of conceptspace, the meanings of the aeths have shifted in order to allow for a wider breadth of expression. By and large however, there are two main aebeths that seem to exist. The first aebeth was developed when Trauame was used as a more declarative, rather than conversational, language. As such, a large number of runes and glyphs were devised to represent Trauame visually. However, no dictionary exists for this early aebeth, and so the meanings of words can only be roughly estimated.
     & A later aebeth exists that uses a version of the early "Ehrivevnv" letters, and also has a quite extensive dictionary of known words.
     & Eventually, Traumae became {{Lietal}}, which is under active development.
 
 SPELLING & GRAMMAR
-    & Words are constructed by combining aeths together in order to describe the concept of a thing. For example, a book could be described as a container of ideas. As such, you would use the letters Xim Ka, a physical container, and Xa Si Sin, multiple psychological constructs.
+    & Words are constructed by combining aeths in order to describe the concept of a thing. For example, a book could be described as a container of ideas. As such, you would use the letters Xim Ka, a physical container, and Sa Xi Sin, multiple psychological constructs.
     & Sentences, or 'expressions,' are very simple, containing subject, verb, and sometimes an object. If something is happening in the present or future, the verb precedes the subject. If the past tense, the subject must precede the verb.
     & Early versions of Traumae have a concept of a 'loop' particle, which is used both to link concepts in order to form more complex sentences, and as a way of signifying a question (like a question mark).
 
@@ -37,7 +37,7 @@ LETTERS
     & {{$ traumae print sentence ehrivevnv_july xemkan semxa xim si kenke}}
     & These letters eventually evolved into the script known as Septambres. Its most recent incarnation is used in in {{Lietal}}.
     * Septambres
-    & The early Septambres letters are all variations on the theme seen with the the later Ehrivevnv letters, with a root glyph signifying the core aeth, and modifications to this root glyph signifying the capitalizations.
+    & The early Septambres letters are all variations on the theme seen with the the earlier Ehrivevnv letters, with a root glyph signifying the core aeth, and modifications to this root glyph signifying the capitalizations.
     = Neau
     & These letters can be found on the walls in various places in {{Hiversaires}}
     $ traumae print ehrivevnv neau
