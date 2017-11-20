@@ -1,6 +1,6 @@
 class Ehriv_aeth
 
-    attr_accessor :root, :meanings, :letter, :alt, :july_letters
+    attr_accessor :root, :meanings, :letter, :alt, :septambres
 
     def initialize name, data
 
@@ -13,8 +13,8 @@ class Ehriv_aeth
         i = @meanings.find_index { |v| v.include? "alt :" }
         @alt = @meanings.delete_at(i).split(" : ")[1]
 
-        i = @meanings.find_index { |v| v.include? "july_letters" }
-        @july_letters = @meanings.delete_at(i).split(" : ")[1].split(", ")
+        i = @meanings.find_index { |v| v.include? "septambres" }
+        @septambres = @meanings.delete_at(i).split(" : ")[1].split(", ")
 
     end
 
@@ -60,10 +60,10 @@ class Ehriv_aeth
 
         glyph = case alt
                 when "alt"  then @alt
-                when "july" then @july_letters
-                when "neau" then @july_letters
-                when "lith" then @july_letters
-                when "fune" then @july_letters
+                when "july" then @septambres
+                when "neau" then @septambres
+                when "lith" then @septambres
+                when "fune" then @septambres
                 else             @letter
                 end
 

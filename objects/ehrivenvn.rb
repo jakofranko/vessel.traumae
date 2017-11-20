@@ -38,15 +38,15 @@ class Ehrivevnv
 
     end
 
-    def to_letters sentence, alt = nil
+    def to_letters sentence, alt = nil, span = true
 
-        html = "<span class='ehriv_aeth #{alt}'>"
+        html = span ? "<span class='ehriv_aeth #{alt}'>" : ""
 
         words = sentence.split(" ")
         words.each do |word|
             word.scan(/([sxk][iea])([nm])?/i) do |root, cap|
-                if alt == "july" || alt == "neau"|| alt == "lith" || alt == "fune"
-                    html += cap.nil? ?  @h[root.upcase].july_letters[0] : cap == 'n' ? @h[root.upcase].july_letters[1] : @h[root.upcase].july_letters[2]
+                if alt == "july" || alt == "neau"|| alt == "lith" || alt == "fune" || alt == "septambres"
+                    html += cap.nil? ? @h[root.upcase].septambres[0] : cap == 'n' ? @h[root.upcase].septambres[1] : @h[root.upcase].septambres[2]
                 else
                     if !root.nil?
                         html += (cap == 'n') ? '-' : (cap == 'm') ? '+' : ''
@@ -55,7 +55,7 @@ class Ehrivevnv
                 end
             end
         end
-        html += "</span>"
+        html += span ? "</span>" : ""
         return html
 
     end

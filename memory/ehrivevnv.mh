@@ -5,15 +5,13 @@
 ~ AUTH : Devine Lu Linvega
 ~ EDIT : Jake Franklin
 
-~ TODO : Rename 'july_letters' to something else
-
 KI
     State
     Location
     Time
     letter : q
     alt : 3
-    july_letters : r, q, Q
+    septambres : r, q, Q
 
 XI
     Psychological
@@ -21,7 +19,7 @@ XI
     Physical
     letter : w
     alt : 2
-    july_letters : t, w, W
+    septambres : t, w, W
 
 SI
     Organic
@@ -29,7 +27,7 @@ SI
     Spiritual
     letter : e
     alt : 1
-    july_letters : y, e, E
+    septambres : y, e, E
 
 KA
     Intrusive
@@ -37,7 +35,7 @@ KA
     Extrusive
     letter : a
     alt : 6
-    july_letters : f, a, A
+    septambres : f, a, A
 
 XA
     LOOP
@@ -45,7 +43,7 @@ XA
     LOOP
     letter : s
     alt : 5
-    july_letters : g, s, S
+    septambres : g, s, S
 
 SA
     Multiple
@@ -53,7 +51,7 @@ SA
     Void
     letter : d
     alt : 4
-    july_letters : h, d, D
+    septambres : h, d, D
 
 KE
     Temper
@@ -61,7 +59,7 @@ KE
     Weight
     letter : z
     alt : 9
-    july_letters : v, z, Z
+    septambres : v, z, Z
 
 XE
     Bright
@@ -69,7 +67,7 @@ XE
     Dark
     letter : x
     alt : 8
-    july_letters : b, x, X
+    septambres : b, x, X
 
 SE
     To Modify
@@ -77,4 +75,4 @@ SE
     To Exist
     letter : c
     alt : 7
-    july_letters : n, c, C
+    septambres : n, c, C
