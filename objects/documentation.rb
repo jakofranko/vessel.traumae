@@ -101,6 +101,7 @@ class Documentation
             .fune {
                 font-family: 'septambres_fune';
                 font-size: 96px;
+                letter-spacing: 0.06em;
             }
             table .fune {
                 font-size: 48px;
@@ -115,6 +116,45 @@ class Documentation
                 font-size: 5px;
             }
 
+            #translator:after {
+                clear: both;
+                content: '';
+                display: table;
+            }
+
+            #tra_to_eng, #eng_to_tra, #letters_to_both {
+                box-sizing: border-box;
+                width: 30%;
+                float: left;
+            }
+
+            #tra_to_eng, #eng_to_tra {
+                padding-right: 1em;
+                margin-right: 1em;
+                border-right: 2px solid black;
+            }
+
+            #tra_to_eng textarea, #eng_to_tra textarea, #letters_to_both textarea {
+                box-sizing: border-box;
+                width: 100%;
+                height: 100px;
+                padding: 16px;
+            }
+
+            #tra_output, #eng_output {
+                box-sizing: border-box;
+                padding: 16px;
+            }
+
+            textarea.july {
+                font-size: 48px;
+            }
+            textarea.lith {
+                font-size: 10px;
+            }
+            textarea.fune {
+                font-size: 72px;
+            }
 
         </style>
         "
