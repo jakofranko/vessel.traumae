@@ -4,13 +4,13 @@
 ~ EDIT : Jake Franklin
 
 INTRODUCTION
-    * Aebeth
+    = Aebeth
     & The foundation of Traumae is its aebeth. The aebeth is composed of 9 letters, or 'aeths,' which in turn each have three capitalizations. Each aeth represents a concept, and each capitalization represents a spectrum of that concept.
-    * Letters
+    = Letters
     & Various glyphs have been devised to represent the Traumae aeths and their capitalizations. These letters were used most in the earlier versions of Traumae, which were not intended to be conversational as much as declarative.
-    * Adultspeak/Childspeak
+    = Adultspeak/Childspeak
     & As Trauame evolved and developed more conversational aspects, a distinction emerged between a more easily spoken "adultspeak," which concatinates duplicate consonates and vowels, and "childspeak," which is the precise spelling of each aeth.
-    * Evolution
+    = Evolution
     & Trauame has seen many revisions. Since each aeth represents a certain realm of conceptspace, the meanings of the aeths have shifted in order to allow for a wider breadth of expression. By and large however, there are two main aebeths that seem to exist. The first aebeth was developed when Trauame was used as a more declarative, rather than conversational, language. As such, a large number of runes and glyphs were devised to represent Trauame visually. However, no dictionary exists for this early aebeth, and so the meanings of words can only be roughly estimated.
     & A later aebeth exists that uses a version of the early "Ehrivevnv" letters, and also has a quite extensive dictionary of known words.
     & Eventually, Traumae became {{Lietal}}, which is under active development.
@@ -21,7 +21,7 @@ SPELLING & GRAMMAR
     & Early versions of Traumae have a concept of a 'loop' particle, which is used both to link concepts in order to form more complex sentences, and as a way of signifying a question (like a question mark).
 
 LETTERS
-    * Ehrivevnv
+    = Ehrivevnv
     & This series of glyphs is one of the earliest used to write Traumae. Each aeth family is represented by a glyph:
     $ traumae print ehrivevnv
     & In this script, dots are used to signify the different meanings of each aeth by proceeding the glyph. The second capitalization has two dots, the third has three. The first capitalization has no following dots.
@@ -36,23 +36,23 @@ LETTERS
     & Lines underneath each aeth are used to signify capitalizations instead of dots. The above sentence using these letters would be:
     & {{$ traumae print sentence ehrivevnv_july xemkan semxa xim si kenke}}
     & These letters eventually evolved into the script known as Septambres. Its most recent incarnation is used in in {{Lietal}}.
-    * Septambres
+    = Septambres
     & The early Septambres letters are all variations on the theme seen with the the earlier Ehrivevnv letters, with a root glyph signifying the core aeth, and modifications to this root glyph signifying the capitalizations.
-    = Neau
+    > <h4>Neau</h4>
     & These letters can be found on the walls in various places in {{Hiversaires}}
     $ traumae print ehrivevnv neau
     & {{$ traumae print sentence septambres_neau xemkan semxa xim si kenke}}
-    = Lith
+    > <h4>Lith</h4>
     $ traumae print ehrivevnv lith
     & {{$ traumae print sentence septambres_lith xemkan semxa xim si kenke}}
-    = Fune
+    > <h4>Fune</h4>
     $ traumae print ehrivevnv fune
     & {{$ traumae print sentence septambres_fune xemkan semxa xim si kenke}}
 
 LATER TRAUMAE
     & Eventually, Traumae evolved and the meaning of the aeths changed slightly to encompass a broader conceptspace. The aebeth changed, but with the change came a greater understanding of the purpose of each aeth.
     $ traumae print aebeth
-    = Recit
+    > <h4>Recit</h4>
     & The recit letters can be used to write both the earlier and later versions of the aebeth.
     $ traumae print septambres recit
     & The resemblence to the Ehrivevnv letters is obvious, the primary difference actually being the meaning of this aebeth. Below is the sentence "Lost in space, I find myself":
@@ -60,34 +60,34 @@ LATER TRAUMAE
     & This later version of Traumae is more diverse and allows for more conversational interaction, and will be used for the rest of the documentation.
 
 BASIC VOCABULARY
-    * Simple Answers
+    = Simple Answers
     & Now that we've covered the aebeth, you already know a couple of basic vocabulary words in Traumae:
     # Yes => Xo
     # No  => Bo
     & Xo and bo do not mean 'yes' and 'no' literally in Traumae, but they convey the concept behind those two words. Xo carries the idea of 'positive,' where as bo carries the idea of 'negative.' In fact, it is rare for words in Traumae to have a literal 1:1 translation to English or other languages, because the nature of Traumae's words are more conceptual and descriptive.
-    * Greetings & Goodbyes
+    = Greetings & Goodbyes
     & Words in Traumae are composed by combining aeths in a way that describes the idea of a thing, with each successive aeth modifying the one that came before it.
     # Hello   => Xoka
     # Goodbye => Xopa
     & Both of these words start with the "xo" aeth, which means positive, or good. This aeth is then followed by two of the directional aeths "ka", which means "inward," and "pa," which means "outward."
-    * Questions
+    = Questions
     & All questions in Traumae start with the 'do,' which means 'uknown.'
     # What are you doing? => Dovo
     # How many?           => Dosa
-    * Answers
+    = Answers
     & Answers in Traumae often start with 'lo,' which means 'to be.'
     # There is one => lola
 
 SENTENCES
     & Sentences are nested thoughts in Traumae, with each successive word modifying the last. To illustrate this, let's dissect a very common Traumae sentence:
-    * How do you say X in Traumae?
+    = How do you say X in Traumae?
     & To translate this into Traumae, we need to flip the word order around, starting with the most generic concept, and ending with the most specific concept. The English phrasing would be more like "In Traumae, what is X?"
     # Pi traumae, do lo "X"?
     & Here we see the word "pi" is used to describe the "things/children of traumae," and this thought is then modified the thought of an unknown thing. The question mark designates it as a question instead of a statement, and in conversation this would be indicated by vocal inflection just like in English.
     & This sentence could be diagramed like pi(traumae), do(lo("X")), which in English would be of(Traumae) unknown(to be("X")).
     & Another example would be answering the question "dosa?" or "how many?" with "lo la": "there is one." If we wanted to be more specific, and add another aeth to our expression, we would combine lo and la and add our third aeth, for example 'xi': "lola xi." To say "there is one good idea" we could say "lola xi xo." To say "there is one good idea among many" you would say "lola xixo ti sa."
     & Notice how words are combined: at most there can be one modifier before it is combined with it's neighbor to become it's own word. Also, aeths are never combined in groups larger than two. This is significant as it pertains to how Traumae is spoken via 'adultspeak.'
-    * A Conversation
+    = A Conversation
     & Putting everything learned so far into practice, here is an example of a short conversation in Traumae
     # Xoka
     # Xoka! Dolo pa?
@@ -102,7 +102,7 @@ ADULTSPEAK
     & When spoken conversationally, Traumae words are often contracted, removing duplicated consonants and vowels. This contracted form of speech is called 'adultspeak', while the exact pronunciation of words as they are spelled is called 'childspeak.'
     & For example, the word 'xobo,' would be pronounced 'xob'. Likewise, the word 'tati' would be shortend to 'tai.'
     & In addition to just removing duplicated letters, the order of the letters is also changed around for ease of pronunciation. This happens in one of two ways: either by inverting the second aeth's letters, or by placing the second aeth's consonant after the first aeth's consonant. Thus, 'xoka' becomes 'xoak,' and 'dovo' could also become 'dvo.'
-    * Example conversation
+    = Example conversation
     & A more accurate version of how the conversation in the last section might be pronounced:
     # {{$ traumae print adultspeak Xoka}}
     # {{$ traumae print adultspeak Xoka! Dolo pa?}}
@@ -113,11 +113,11 @@ ADULTSPEAK
     # {{$ traumae print adultspeak Xopa!}}
 
 DICTIONAERY
-    * Traumae to English
+    = Traumae to English
     $ traumae print dictionaery
 
 TRANSLATE
-    * English to Traumae
+    = English to Traumae
     > <div id="translator"></div>
 
 SOURCES
