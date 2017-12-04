@@ -1,8 +1,6 @@
 require_relative "../../vessel.oscean/objects/index.rb"
 class Documentation
 
-    HEADINGS = ["*", "="]
-
     def initialize path
 
         @h = Memory_Hash.new("documentation", path).to_h
@@ -19,13 +17,7 @@ class Documentation
             parent = nil
             html += @index.add(:root, heading.downcase.to_sym)
             paragraphs.each do |p|
-                print p[0, 1], HEADINGS[0]
-                if p[0, 1] == HEADINGS[0]
-                    parent = p[1..-1]
-                    @index.add(heading.downcase.to_sym, parent)
-                elsif p[0, 1] == HEADINGS[2] && !parent.nil?
-                    @index.add(parent.trim.downcase.to_sym, p[1..-1])
-                end
+                @index.add(heading.downcase.to_sym, p[1..-1].strip) if p[0, 1] == "="
             end
 
             html += paragraphs.runes
@@ -40,6 +32,12 @@ class Documentation
 
         return "
         <style>
+            @media (max-width: 740px) {
+                .traumae.letters {
+                    float: none;
+                }
+            }
+
             .traumae.aeth {
                 width: 100%;
             }
