@@ -11,11 +11,12 @@ Generic
   Serve          | Serve payload.
 Custom
   Test           | Test the Traumae actions and objects
+  Generate       | Generate the Traumae Dictionaery memory and letters hash
 ```
 
 ## Documentation
 
-Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Desamber 12, 2017**, view the [project site](wiki.xxiivv.com/traumae).
+Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Tridesamber 2, 2017**, view the [project site](https://wiki.xxiivv.com/traumae).
 
 ## License
 

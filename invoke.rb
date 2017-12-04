@@ -5,7 +5,7 @@ $nataniev.require("corpse","http")
 
 $nataniev.vessels[:traumae].name = "Traumae"
 $nataniev.vessels[:traumae].docs = "A synthetic language, the ancestor of [Lietal](wiki.xxiivv.com/lietal)"
-$nataniev.vessels[:traumae].site = "wiki.xxiivv.com/traumae"
+$nataniev.vessels[:traumae].site = "https://wiki.xxiivv.com/traumae"
 $nataniev.vessels[:traumae].path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
 
 # Install actions
