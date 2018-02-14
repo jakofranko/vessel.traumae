@@ -1,6 +1,6 @@
 # Traumae
     
-A synthetic language, the ancestor of [Lietal](wiki.xxiivv.com/lietal)
+A synthetic language, the ancestor of [Lietal](http://wiki.xxiivv.com/lietal)
 
 ## Available actions
 
