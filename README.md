@@ -16,7 +16,7 @@ Custom
 
 ## Documentation
 
-Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Tridesamber 2, 2017**, view the [project site](https://wiki.xxiivv.com/traumae).
+Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Tridesamber 2, 2017**, view the [Lietal project site](https://wiki.xxiivv.com/site/lietal.html).
 
 ## License
 
